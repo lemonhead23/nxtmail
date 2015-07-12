@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "openpgp": {
+      "version": "0.10.1",
+      "dependencies": {
+        "es6-promise": {
+          "version": "1.0.0"
+        },
+        "node-localstorage": {
+          "version": "0.3.6"
+        },
+        "zlibjs": {
+          "version": "0.2.0"
+        }
+      }
+    },
+    "shelljs": {
+      "version": "0.5.1"
+    }
+  }
+}

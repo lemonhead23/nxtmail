@@ -1,0 +1,7 @@
+{
+"MAIL_USER" : "smtp://lemonhead@posteo.de:",
+"MAIL_PASSWORD" : "secret",
+"MAIL_SERVER" : "@smtp.posteo.de:465",
+"PGPKEY": "0x6D66E50A.asc"
+
+}

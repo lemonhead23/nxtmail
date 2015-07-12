@@ -1,0 +1,41 @@
+<head>
+  <title>nxtmail</title>
+</head>
+
+<body>
+  <h1>NxtMail v0.1</h1>
+  <p>Monitor your NXT Accounts and get notified by email!</p>
+
+  {{> status}}
+  {{> blocks}}
+  {{> addaccount}}
+  {{> accountoverview}}
+</body>
+
+<template name="status">
+
+status: <div style="height:25px;width:25px;background:green"></div>
+<br>
+</template>
+
+<template name="addaccount">
+  <input type="text" id="account">
+  <button>Add NXT Address to monitor</button>
+
+</template>
+
+<template name="blocks">
+  <input type="text" id="blockstart">
+  <button>Start scanning from certain Blockheight</button><br><br>
+
+</template>
+
+<template name="accountoverview">
+	<br><br>
+NXT Accountlist for monitoring:<br>
+	{{#each accounts}}
+		{{accountid}}<br>
+	{{/each}}
+
+</template>
+
